@@ -1,10 +1,6 @@
 .DS_Store
 
 # data files
-glove.6B/
+
 __pycache__/
-models/
-data/
-outputs/
-prophecies/
 .DS_Store/
