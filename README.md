@@ -38,6 +38,8 @@ Download GloVe pre-trained embeddings [here](http://nlp.stanford.edu/data/glove.
 * [Pros/Cons](https://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html#datasets)
 * [Positive/Negative](https://archive.ics.uci.edu/ml/datasets/Sentiment+Labelled+Sentences)
 
+For ATIS and SNIPS, we use the preprocessed data made available by [E et al. (2019)](https://github.com/ZephyrChenzf/SF-ID-Network-For-NLU).
+
 Preprocessing is needed to put them in the following format:
 
 * Sequence tagging:
@@ -113,6 +115,23 @@ Use `--help` to check all possible arguments.
 
 >  --freeze              do not update GloVe embeddings during training
 
+### Citing this paper ###
+   
+```
+@inproceedings{madureira-schlangen-2020-incremental,
+    title = "Incremental Processing in the Age of Non-Incremental Encoders: An Empirical Assessment of Bidirectional Models for Incremental {NLU}",
+    author = "Madureira, Brielen  and
+      Schlangen, David",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.emnlp-main.26",
+    doi = "10.18653/v1/2020.emnlp-main.26",
+    pages = "357--374",
+}   
+```
 ### Who do I talk to? ###
 
 Brielen Madureira
