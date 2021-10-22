@@ -1,10 +1,10 @@
-from comet_ml import Experiment
+from comet_ml import Experiment # to track/log model info
 
 import torch
 import torch.optim as optim
 import numpy as np
 import pickle
-import argparse
+import argparse # Parser for command-line options, arguments and sub-commands
 import time
 
 from structs import Corpus, Results, Corpus4Bert
